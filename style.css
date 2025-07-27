@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 3px solid #555;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Section Styling */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffffd9;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* Strong Tags */
+strong {
+    color: #2c3e50;
+}
+
+/* HR Styling */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004a99;
+    text-decoration: underline;
+}
+
+/* Contact Icons */
+section a img {
+    vertical-align: middle;
+    margin-right: 8px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+section a:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
